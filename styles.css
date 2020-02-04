@@ -1,0 +1,42 @@
+
+
+.header_root{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.header_right{
+    display: flex;
+    justify-content:space-around;
+
+    background-color: cornflowerblue;
+}
+.header_left>p{
+    font-size: 3rem;
+    margin:0;
+}
+
+.body_root{
+   display: grid;
+}
+
+
+.gofogo{
+    background-color: crimson;
+}
+
+.header_item>p{
+    font-size:0.8rem;
+}
+
+.header_item>p:first-child{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.header_left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: chartreuse;
+}
